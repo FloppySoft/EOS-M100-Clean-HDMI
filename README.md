@@ -48,13 +48,17 @@ Now your HDMI output should look clean and contain no overlays, not even the fac
 ## How to use the M100 as a webcam ##
 
 Since most users will prefer windows, here is a simple workflow using OBS:
-* Install the newest version of the [Open Broadcaster Software, OBS](https://obsproject.com/)
-* The newest version already contains a virtual webcam, you don't need plugins
-* Go to _File > Settings > Video_ and set both resolution parameters to your preference. If you want a 4:3 ratio webcam, use something like `1440x1080` (might also prevent your conference software from squeezing the video)
-* Add a _Video Capture Device_ to your scene, select the HDMI grabber
+* Install the newest version of the [Open Broadcaster Software, OBS](https://obsproject.com/).
+* The newest version already contains a virtual webcam, you don't need plugins.
+* Go to _File > Settings > Video_ and set both resolution parameters to your preference. If you want a **4:3 ratio** webcam, use something like `1440x1080`.
+* Add a _Video Capture Device_ to your scene, select the HDMI grabber.
   * go to it's settings (e.g. by double clicking it in the_Sources_ list)
   * Set _Buffering_ to disable
-  * 
+* Click _Start Virtual Camera_ in the _Controls_ section.
+
+Now you can use the "OBS Virtual Camera" in most conference programs.
+
+Remember, if your video appears squeezed in your conference, go to the OBS output settings and change the resolution to another aspect ratio. It seems most conference solutions prefer 4:3 sources anyway.
 
 
 ## Those HDMI grabbers aren't really Full HD ##
@@ -72,7 +76,7 @@ I still see overlays
 
 Script won't run
 
-* Try to use eoscard multiple times
+* Try to use EOSCard multiple times
 * Use another card, another size
 * Make sure the SD card is FAT32-formatted (some small SD cards get auto-formatted to FAT)
 * A user recommended to retract the kit lens, another suggested to disconnect the HDMI before running the script, deleting all images from the camera. I never needed these steps, though

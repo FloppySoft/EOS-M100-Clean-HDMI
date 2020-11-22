@@ -50,7 +50,7 @@ Now your HDMI output should look clean and contain no overlays, not even the fac
 Since most users will prefer windows, here is a simple workflow using OBS:
 * Install the newest version of the [Open Broadcaster Software, OBS](https://obsproject.com/)
 * The newest version already contains a virtual webcam, you don't need plugins
-* Go to _File > Settings > Video_ and set both resultion parameters to your preference. If you want a 4:3 ratio webcam, use something like `1440x1080` (might also prevent your conference software from squeezing the video)
+* Go to _File > Settings > Video_ and set both resolution parameters to your preference. If you want a 4:3 ratio webcam, use something like `1440x1080` (might also prevent your conference software from squeezing the video)
 * Add a _Video Capture Device_ to your scene, select the HDMI grabber
   * go to it's settings (e.g. by double clicking it in the_Sources_ list)
   * Set _Buffering_ to disable
